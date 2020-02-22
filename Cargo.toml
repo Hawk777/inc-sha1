@@ -1,0 +1,17 @@
+[package]
+name = "inc-sha1"
+version = "0.1.0"
+authors = ["Christopher Head"]
+edition = "2018"
+description = "Incremental SHA-1 calculation"
+repository = "https://gitlab.com/Hawk777/inc-sha1"
+readme = "README.md"
+keywords = ["hash", "incremental", "sha"]
+categories = ["algorithms", "cryptography"]
+license = "GPL-3.0-only"
+
+[dependencies.sha]
+version = "^1.0"
+
+[dev-dependencies.hex]
+version = "^0.4"
